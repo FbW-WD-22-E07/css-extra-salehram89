@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav a{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+nav{
+    top: 0%;
+    background-color: rgb(58, 58, 68);
+    display: flex;
+    gap: 100px;
+    height: 60px;
+    line-height: 60px;
+    /* align-items: center; */
+}
+
+nav a:hover{
+    color: azure;
+}
+
+section{
+    margin-top: 30px;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: calc(10px +0.5vw);
+}
+
+p{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+h1{
+    margin-top: 20px;
+}
